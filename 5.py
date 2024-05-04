@@ -7,9 +7,9 @@ try:
     num3 = int(numbers[2])
     result = num1 / num2 + num3
 
-except (ValueError) as e:
+except (ValueError) as a:
     result = "data error"
-except (ZeroDivisionError) as e:
+except (ZeroDivisionError) as a:
     result = "division by 0"
 
 with open('output.txt', 'w') as file:
